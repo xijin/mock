@@ -1,36 +1,23 @@
 {
-  "name": "smocks",
-  "version": "7.2.2",
-  "description": "Stateful mock HTTP server using HAPI",
+  "name": "hapi_mock",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhudson8/smocks.git"
+    "url": "git+https://github.com/jhudson8/smocks.git"
   },
-  "scripts": {
-    "test": "mocha --recursive"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhudson8/smocks/issues"
   },
-  "keywords": [
-    "hapi",
-    "mock",
-    "http"
-  ],
-  "author": "Joe Hudson <joehud@gmail.com>",
-  "license": "MIT",
+  "homepage": "https://github.com/jhudson8/smocks#readme",
   "dependencies": {
-    "babel-core": "^6.5.2",
-    "babel-preset-react": "^6.5.0",
-    "hapi": "^16.0.0",
-    "lodash": "^3.9.3",
-    "mime-types": "^2.1.9",
-    "moment": "^2.10.6",
-    "nes": "^6.4.2",
-    "node-uuid": "^1.4.7",
-    "wreck": "6.3.0"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "wreck": "^6.3.0"
+    "express": "^4.16.3",
+    "mockjs": "^1.0.1-beta3"
   }
 }
