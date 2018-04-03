@@ -17,12 +17,32 @@ exports.index = function (param) {
             "id": 3, // 课程id
             "name": "dwfw", // 课程名称
             "score": 90, // 得分
-            "learningDate": 324342342 // 学习日期
+            "learningDate": 324342342, // 学习日期
+            "cover": 'https://www.babyabc100.com/static/img/bg/cover.jpg'
         }, {
             "id": 3, // 课程id
             "name": "dwfw", // 课程名称
             "score": 90, // 得分
-            "learningDate": 324342342 // 学习日期
+            "learningDate": 324342342, // 学习日期
+            "cover": 'https://www.babyabc100.com/static/img/bg/cover.jpg'
+        }, {
+            "id": 3, // 课程id
+            "name": "dwfw", // 课程名称
+            "score": 90, // 得分
+            "learningDate": 324342342, // 学习日期
+            "cover": 'https://www.babyabc100.com/static/img/bg/cover.jpg'
+        }, {
+            "id": 3, // 课程id
+            "name": "dwfw", // 课程名称
+            "score": 90, // 得分
+            "learningDate": 324342342, // 学习日期
+            "cover": 'https://www.babyabc100.com/static/img/bg/cover.jpg'
+        }, {
+            "id": 3, // 课程id
+            "name": "dwfw", // 课程名称
+            "score": 90, // 得分
+            "learningDate": 324342342, // 学习日期
+            "cover": 'https://www.babyabc100.com/static/img/bg/cover.jpg'
         }]
     };
     

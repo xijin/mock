@@ -59,6 +59,7 @@ exports.index = function (param) {
     }];
     
     var data = {
+        "cover": "https://www.babyabc100.com/static/img/bg/cover.jpg",
         "id": 2, // 课程id
         "name": "fssfsf", // 课程名称
         "learningStatus": 1, // 1: 学习中，2: 已完成

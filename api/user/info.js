@@ -12,7 +12,8 @@ exports.index = function (param) {
         "openId": "dfsfs",
         "unionId": "dsfsdfsdfeee",
         "nickname": "法师法师",
-        "sex": 1 // 1:男，2:女，0:未知
+        "sex": 1, // 1:男，2:女，0:未知
+        "happyReadType":  1 // 0:未知，1：0-2岁星星班，2：2-4岁月亮班，3：4-6岁太阳班
     };
     
     var result = {
