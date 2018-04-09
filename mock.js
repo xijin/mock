@@ -7,7 +7,7 @@ module.exports = function() {
     
     var mock = function(req, res, next) {
         res.setHeader('content-type', 'application/json;charset=utf-8');
-        if (!/.json$/.test(req.url)|| /hot-update/.test(req.url)) {
+        if (!/.json/.test(req.url)|| /hot-update/.test(req.url)) {
             next();
             return;
         }
