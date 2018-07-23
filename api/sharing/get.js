@@ -60,6 +60,8 @@ exports.index = function (param) {
         "nickname": "依依妈妈", // 用户昵称
         "avatar": "http://sdfsdfasfds.com/sfsf.jpg", // 用户头像
         "avgScore": 85, // 平均得分
+        courseWordCount: 100,
+        courseSentenceCount: 100,
         "course": {
             "id": 2, // 课程id
             "name": "fssfsf", // 课程名称

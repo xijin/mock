@@ -16,12 +16,6 @@ app.use(mock());
 
 var httpsServer = https.createServer(credentials, app);  
 
-
-//引入mock模块
-console.log('-----start server----');
-
-console.log('-----end server----');
-
 /**
  * 监听8090端口
  */
