@@ -24,5 +24,33 @@ module.exports = {
             {"definition":"std","type":"m3u8","size":1199104},
             {"definition":"high","type":"m3u8","size":1884160}
         ];
+    },
+    /**
+     * 获取视频播放url
+     */
+    getPlayInfo: function () {
+        return {
+            "high": {
+              "duration": 300,
+              "height": 368,
+              "width": 640,
+              "size": 13630403,
+              "url": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+            },
+            "low": {
+              "duration": 300,
+              "height": 176,
+              "width": 320,
+              "size": 8238223,
+              "url": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+            },
+            "superHD": {
+              "duration": 300,
+              "height": 544,
+              "width": 960,
+              "size": 21026316,
+              "url": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+            }
+        };
     }
 }
