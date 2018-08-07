@@ -14,7 +14,7 @@ exports.index = function (param) {
         "unionId": "dsfsdfsdfeee",
         "nickname": "法师法师",
         "sex": 1, // 1:男，2:女，0:未知
-        "bambooAmount":  3 // 竹笋数量
+        "bambooAmount":  3, // 竹笋数量
         "donated": 1, // 是否已经赠送过竹笋， 1已赠送 2， 未赠送
         "token": "dfsdfsfdsf", // 用户token
         "unlockLessonConsumedBambooCount": 3, // 解锁课程消费竹笋数量
